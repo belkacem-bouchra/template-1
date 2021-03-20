@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    text-transform: capitalize;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+:focus {
+    outline: 0;
+}
+
+/* =========== Colors =========== */
+
+:root {
+    --mainColor : #7b5244;
+    --subColor : #333333;
+    --thirdColor : #444444;
+    --borderColor : #7d716b;
+    --titleColor : #888888;
+    --bgColor :  #f7f3ef;
+}
+
+/* =========== Section Header =========== */
+
+.section-header {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.line {
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: var(--borderColor);
+    transition: width 0.5s;
+}
+
+.section-header:hover .line {
+    width: 100px;
+}

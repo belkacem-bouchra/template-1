@@ -1,0 +1,156 @@
+/* =========== Footer =========== */
+
+.footer {
+    background-color: black;
+}
+
+.footer-content {
+    border-bottom: 1px solid #3a3a3a;
+    padding: 100px 40px 20px 40px;
+}
+
+.footer-logo {
+    width: 45%;
+    margin-right: 60px
+}
+
+.footer-logo img {
+    margin-bottom: 40px;
+}
+
+.footer-logo p {
+    font-size: 13px;
+    color: var(--titleColor);
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.footer-information {
+    width: 15%;
+    margin-right: 60px
+}
+
+.footer-information .list-title,
+.footer-account .list-title,
+.footer-subs .list-title {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.footer-information ul li,
+.footer-account ul li {
+    text-align: left;
+    line-height: 2;
+    transition: transform 0.5s;
+}
+
+.footer-information ul li a,
+.footer-account ul li a {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--titleColor);
+    transition: color 0.5s;
+}
+
+.footer-account {
+    width: 15%;
+    margin-right: 60px
+}
+
+.footer-subs .list-title {
+    margin-bottom: 50px;
+}
+
+.email-input {
+    border-bottom: 1px solid #3a3a3a;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-subs input {
+    color: white;
+    background: none;
+    border: none;
+    top: 5px;
+    left: 10px;
+    height: 30px;
+}
+
+.footer-subs input:placeholder-shown {
+    font-size: 13px;
+}
+
+.footer-subs button {
+    background: url(../images/newsletter.png) no-repeat scroll center 1px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    transition: none;
+    top: 5px;
+    right: 10px;
+}
+
+.social ul li {
+    width: 25px;
+    height: 25px;
+}
+
+.social ul li a {
+    font-size: 18px;
+    color: var(--titleColor);
+    line-height: 25px;
+    transition: color 0.5s;
+
+}
+
+.copyright {
+    padding: 20px 0 40px;
+}
+
+.copyright-desc {
+    color: var(--titleColor);
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    height: 30px;
+    left: 40px;
+}
+
+.copyright-desc strong {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.payement {
+    height: 30px;
+    right: 40px;
+}
+
+.payement img {
+    margin-left: 10px;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+/* =========== Footer Hover =========== */
+
+.footer-information ul li a:hover,
+.footer-account ul li a:hover,
+.social ul li a:hover {
+    color: white;
+}
+
+.footer-information ul li:hover,
+.footer-account ul li:hover {
+    transform: translateX(5px);
+}
+
+.footer-subs button:hover {
+    background: url(../images/newsletter.png) no-repeat scroll center -60px;
+}
+
+.payement img:hover {
+    filter: grayscale(0);
+}

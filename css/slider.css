@@ -1,0 +1,84 @@
+/* =========== Slider =========== */
+
+.slider-btn {
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.prev, .next {
+    width: 44px;
+    height: 44px;
+    border: 2px solid white;
+    background: none;
+}
+
+.prev {
+    left: 0;
+    transition: left 0.5s, border 0.5s;
+}
+
+.next {
+    right: 0;
+    transition: right 0.5s, border 0.5s;
+}
+
+.prev i, .next i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.slider-bullet {
+    bottom: 10px;
+    left: 50%;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.bullet {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+
+.active {
+    background-color: black;
+}
+
+/* =========== Slider Hover =========== */
+
+.slider-content:hover .slider-btn,
+.slider-content:hover .slider-bullet {
+    visibility: visible;
+    opacity: 1;
+}
+
+.slider-content:hover .prev {
+    left: 50px;
+}
+
+.slider-content:hover .next {
+    right: 50px;
+}
+
+.prev:hover, .next:hover {
+    border: 2px solid black;
+}
+
+.prev:hover i, .next:hover i {
+    background-color: black;
+    color: white;
+}
+
+.bullet:hover {
+    background-color : black;
+}

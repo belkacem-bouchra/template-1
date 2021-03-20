@@ -1,0 +1,57 @@
+/* =========== Sponsor =========== */
+
+.sponsor {
+    margin-bottom: 60px;
+}
+
+.sponsor-content {
+    justify-content: space-evenly;
+}
+
+.sponsor-item img {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.sponsor-btn {
+    top: 35%;
+    left: 36px;
+    bottom: 0;
+    right: 36px;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.sponsor-prev, .sponsor-next {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--titleColor);
+    background: white;
+}
+
+.sponsor-prev {
+    left: 0;
+    transition: left 0.5s, border 0.5s;
+}
+
+.sponsor-next {
+    right: 0;
+    transition: right 0.5s, border 0.5s;
+}
+
+.sponsor-prev i, .sponsor-next i {
+    background: none;
+    font-size: 20px;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* =========== Sponsor Hover =========== */
+
+.sponsor-content:hover .sponsor-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sponsor-item:hover img {
+    opacity: 1;
+}

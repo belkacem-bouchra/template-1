@@ -1,0 +1,87 @@
+/* =========== Category =========== */
+
+.category {
+    padding-bottom: 60px;
+    margin: 60px 0;
+}
+
+.category-item {
+    margin-left: 25px;
+}
+
+.category-item:first-child {
+    margin-left: 0px;
+}
+
+.category-img {
+    transition: box-shadow 0.5s;
+}
+
+.category-info {
+    margin-top: 25px;
+}
+
+.category-info-desc {
+    font-size: 13px;
+    color: var(--titleColor);
+    margin-bottom: 8px;
+}
+
+.category-info-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.category-btn {
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: var(--mainColor);
+    border: none;
+    color: white;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.category-btn i {
+    font-size: 20px;
+}
+
+.category-bullet {
+    bottom: 10px;
+    left: 49%;
+}
+
+.category-bullet .bullet {
+    width: 11px;
+    height: 11px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    transition: width 0.5s, height 0.5s, background-color 0.5s;
+}
+
+.category-bullet .bullet.active {
+    background-color: var(--mainColor);
+}
+
+/* =========== Category Hover =========== */
+
+.category-item:hover .category-img{
+    box-shadow: 0px 0px 10px 2px rgba(136, 136, 136, 0.5);
+}
+
+.category-item:hover .category-btn {
+    visibility: visible;
+    opacity: 1;
+}
+
+.category-btn:hover {
+    background: black;
+}
+
+.category-bullet .bullet:hover {
+    width: 13px;
+    height: 13px;
+    background-color: var(--mainColor);
+}

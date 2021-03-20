@@ -1,0 +1,93 @@
+/* =========== Blog =========== */
+
+.blog {
+    margin: 60px 0;
+}
+
+.blog-slider {
+    background: #f7f3ef;
+    flex: 3;
+    padding: 30px;
+}
+
+.blog-slider-header i {
+    font-size: 60px;
+    color: var(--mainColor);
+}
+
+.blog-info {
+    top: 17%;
+    left: 12%;
+    line-height: 1.4;
+}
+
+.blog-name {
+    font-size: 16px;
+}
+
+.blog-desc {
+    font-size: 13px;
+    color: var(--titleColor);
+}
+
+.blog-slider-desc {
+    margin-bottom: 50px;
+}
+
+.blog-slider-desc .slider-text {
+    font-size: 13px;
+    color: var(--titleColor);
+    line-height: 2.2;
+}
+
+.blog-slider-bullet {
+    right: 30px;
+}
+
+.blog-slider-bullet .bullet {
+    width: 50px;
+    height: 2px;
+    border-radius: 0;
+    margin-left: 5px;
+    background-color: var(--titleColor);
+    transition: background-color 0.5s;
+}
+
+.blog-slider-bullet .bullet.active {
+    background-color: var(--mainColor);
+}
+
+.blog-img {
+    flex: 2;
+    margin-left: 30px;
+}
+
+.blog-img img {
+    transition: transform 0.6s;
+}
+
+.blog-img-info {
+    margin: 30px 20px;
+    top: 0;
+    line-height: 1.5;
+}
+
+.discount {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--mainColor);
+}
+
+.article-name {
+    font-size: 20px;
+}
+
+/* =========== Blog Hover =========== */
+
+.blog-slider-bullet .bullet:hover {
+    background-color: var(--mainColor);
+}
+
+.blog-img:hover img{
+    transform: scale(1.05);
+}

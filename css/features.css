@@ -1,0 +1,84 @@
+/* =========== Features =========== */
+
+.features-content {
+    padding-bottom: 60px;
+    border-bottom: 1px solid var(--bgColor);
+}
+
+.features-item {
+    border-right: 1px solid var(--bgColor);
+    flex: 1;
+}
+
+.features-item:last-child {
+    border: none;
+}
+
+.features-icon {
+    height: 56px;
+    background-image: url('../images/service-icon.png');
+    background-repeat: no-repeat;
+}
+
+.features-icon-1 {
+    background-position: center 6px;
+}
+
+.features-icon-2 {
+    background-position: center -179px;
+}
+
+.features-icon-3 {
+    background-position: center -549px;
+}
+
+.features-icon-4 {
+    background-position: center -364px;
+}
+
+.features-icon-5 {
+    background-position: center -736px;
+}
+
+.features-info {
+    line-height: 1.7;
+}
+
+.features-info-title {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.features-info-desc {
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    color: var(--titleColor);
+}
+
+/* =========== Features Hover =========== */
+
+.features-item:hover .features-icon-1 {
+    background-position: center -86px;
+    transition: 0.5s;
+}
+
+.features-item:hover .features-icon-2 {
+    background-position: center -271px;
+    transition: 0.5s;
+}
+
+.features-item:hover .features-icon-3 {
+    background-position: center -641px;
+    transition: 0.5s;
+}
+
+.features-item:hover .features-icon-4 {
+    background-position: center -456px;
+    transition: 0.5s;
+}
+
+.features-item:hover .features-icon-5 {
+    background-position: center -828px;
+    transition: 0.5s;
+}
